@@ -23,6 +23,7 @@ public class Login {
 		driver.findElement(By.id("input-password")).sendKeys("S@ss");
 		driver.findElement(By.xpath("//input[@class='btn btn-primary']")).click();
 		driver.quit();
+		System.out.println("hello");
 		
 		
 	}
